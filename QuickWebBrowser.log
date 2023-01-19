@@ -1,0 +1,27 @@
+﻿18/07/2022 1:30:10 CH: The cloud operation was unsuccessful.
+
+System.IO.IOException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.ReadCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at TranslatorEngine.CharsetDetector.DetectChineseCharset(String filePath)
+   at TranslatorEngine.TranslatorEngine.LoadDictionaryHistory(String dictionaryHistoryPath, DataSet& dictionaryHistoryDataSet)
+   at TranslatorEngine.TranslatorEngine.loadOnlyNamePhuDictionaryHistoryWithNewThread(Object stateInfo)
+   at System.Threading._ThreadPoolWaitCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+18/07/2022 1:30:11 CH: The cloud operation was unsuccessful.
+
+System.IO.IOException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.ReadCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at TranslatorEngine.TranslatorEngine.loadOnlyNameDictionary()
+   at TranslatorEngine.TranslatorEngine.loadOnlyNameDictionaryWithNewThread(Object stateInfo)
+   at System.Threading._ThreadPoolWaitCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
